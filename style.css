@@ -124,13 +124,21 @@ nav a:link {
     padding: 0.7rem;
     text-decoration: none;
 }
-nav a:hover {
-    color: white;
-    background-color: #a66;
-}
 nav a:visited {
     color: rgb(243, 125, 125);
     text-decoration: dotted underline;
+}
+nav a:hover {
+    color: white;
+}
+nav a:focus {
+    color: rgb(176, 19, 147);
+    text-decoration: none;
+    outline: none;
+}
+nav a:active {
+    background-color: white;
+    text-decoration: none;
 }
 
 section p a::after {
